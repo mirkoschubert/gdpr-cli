@@ -2,26 +2,20 @@
 
 'use strict'
 
-require('rootpath')();
-
 const app = require('commander');
-const Parser = require('lib/parser');
-const got = require('got');
+const tasks = require('./lib/tasks');
+const Parser = require('./lib/parser');
+
+
 
 app
-  .version(require('package.json').version);
+  .version(require('./package.json').version);
 
 app
   .command('scan [url]')
   .description('Scans an url')
   .action(url => {
-    console.log('Connecting to', url, '...');
-    got(url, {}).then(res => {
-      const p = new Parser(res.body);
-      console.log(p.getMetaData());
-    }).catch(e => {
-      console.log(e.res.body);
-    });
+    tasks.run(url);
   });
 
 app.parse(process.argv);
