@@ -1,6 +1,6 @@
 {
   "name": "gdpr-check",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Checks websites for GDPR compliance",
   "main": "index.js",
   "scripts": {
