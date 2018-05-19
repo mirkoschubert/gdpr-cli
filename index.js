@@ -28,6 +28,17 @@ app
 
   });
 
+app
+  .command('help [command]')
+  .description('shows the help for a specific command')
+  .action(command => {
+    if (!command) {
+      app.help();
+    } else {
+      // specific help
+    }
+  });
+
 app.parse(process.argv);
-console.log(app.args.length);
-if (!app.args.length) app.help();
+
+//if (!app.args.length) app.help();
