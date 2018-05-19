@@ -51,7 +51,8 @@ There are some options already, but they still need some improvement. I will upd
 ### Roadmap
 
 * [x] Create the basic structure with an easy UI and a flexible Task manager
-* [ ] Get some basic information about the website (Meta Data)
+* [x] Get some basic information about the website (Meta Data)
+* [ ] Check SSL Certificate
 * [ ] Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
 * [ ] Check for DNS Prefetching
 * [ ] Check for Fingerprinting Methods
