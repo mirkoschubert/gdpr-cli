@@ -52,7 +52,7 @@ There are some options already, but they still need some improvement. I will upd
 
 * [x] Create the basic structure with an easy UI and a flexible Task manager
 * [x] Get some basic information about the website (Meta Data)
-* [ ] Check SSL Certificate
+* [x] Check SSL Certificate
 * [ ] Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
 * [ ] Check for DNS Prefetching
 * [ ] Check for Fingerprinting Methods
@@ -62,6 +62,7 @@ There are some options already, but they still need some improvement. I will upd
 * [ ] Check for external JavaScript Libraries
 * [ ] Check for CDNs (e.g. WordPress, Cloudflase, AWS)
 * [ ] Check for Cookies (if it's even possible)
+* [ ] Check for advanced Fingerprinting (if possible)
 
 ### Contribution
 

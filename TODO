@@ -1,0 +1,21 @@
+
+Todo:
+  Roadmap:
+    ✔ Create the basic structure with an easy UI and a flexible Task manager @done(16-05-20 22:27)
+    ✔ Get some basic information about the website (Meta Data) @done(18-05-20 01:15)
+    ✔ Check SSL Certificate @done(18-05-20 21:59)
+    ☐ Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
+    ☐ Check for DNS Prefetching
+    ☐ Check for Fingerprinting Methods
+    ☐ Check for Google Analytics & Matomo (Piwik)
+    ☐ Check for Image Embeds (e.g. Instagram & Flickr)
+    ☐ Check for Video Embeds (e.g. YouTube & Vimeo)
+    ☐ Check for external JavaScript Libraries
+    ☐ Check for CDNs (e.g. WordPress, Cloudflase, AWS)
+    ☐ Check for Cookies (if it's even possible)
+    ☐ Check for advanced Fingerprinting (if possible)
+  Fixes:
+    ☐ Check for protocol earlier
+    ☐ Generate a SSL task
+  Bugs:
+    
