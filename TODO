@@ -17,5 +17,6 @@ Todo:
   Fixes:
     ☐ Check for protocol earlier
     ☐ Generate a SSL task
+    ☐ Handle Task Runner better @started(18-05-20 22:41)
   Bugs:
     

@@ -20,22 +20,24 @@ app
   .description('Scans an url')
   .option('-h, --html', 'reads only the HTML files', false)
   .option('-f, --fonts', 'checks if any font is loading externally', true)
+  .option('-s, --ssl', 'checks for SSL certificate', true)
   .option('-p, --prefetching', 'checks for DNS prefetching')
   .option('-r, --recursive', 'tries to follow links to check every internal site', false)
   .action((url, args) => {
     if (args.parent.verbose && args.parent.silent) {
       ui.error('\nYou have to choose between silent or verbose mode!\n');
-    } else {
-      if (args.parent.verbose) ui.set('verbose');
-      if (args.parent.silent) ui.set('silent');
-      //console.log(args);
-      const tasks = new Tasks(url, ui); // initialize the task runner
-
-      if (args.fonts) tasks.new('fonts');
-      if (args.prefetching) tasks.new('prefetching');
-
-      tasks.run();
+      process.exit(0);
     }
+    if (args.parent.verbose) ui.set('verbose');
+    if (args.parent.silent) ui.set('silent');
+    //console.log(args);
+    const tasks = new Tasks(url, ui); // initialize the task runner
+
+    if (args.ssl) tasks.new('ssl');
+    if (args.fonts) tasks.new('fonts');
+    if (args.prefetching) tasks.new('prefetching');
+
+    tasks.run();
   });
 
 app
