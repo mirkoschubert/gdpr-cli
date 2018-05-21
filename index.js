@@ -20,7 +20,7 @@ app
   .description('Scans an url')
   .option('-h, --html', 'reads only the HTML files', false)
   .option('-f, --fonts', 'checks if any font is loading externally', true)
-  .option('-s, --ssl', 'checks for SSL certificate', true)
+  .option('-t, --tls', 'checks for SSL certificate', true)
   .option('-p, --prefetching', 'checks for DNS prefetching')
   .option('-r, --recursive', 'tries to follow links to check every internal site', false)
   .action((url, args) => {

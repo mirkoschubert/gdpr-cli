@@ -15,8 +15,10 @@ Todo:
     ☐ Check for Cookies (if it's even possible)
     ☐ Check for advanced Fingerprinting (if possible)
   Fixes:
-    ☐ Check for protocol earlier
-    ☐ Generate a SSL task
-    ☐ Handle Task Runner better @started(18-05-20 22:41)
+    ✔ Check for protocol earlier @done(18-05-21 17:09)
+    ✔ Generate a SSL task @done(18-05-20 23:04)
+    ✔ Handle Task Runner better @started(18-05-20 22:41) @done(18-05-21 17:09) @lasted(18 hours 28 minutes 3 seconds)
+    ☐ Better Error Handling
+    ☐ Continue when a file fails
   Bugs:
     
