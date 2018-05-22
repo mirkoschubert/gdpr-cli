@@ -49,6 +49,7 @@ app
       app.help();
     } else {
       // specific help
+      //app.help(command);
     }
   });
 

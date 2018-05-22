@@ -61,7 +61,6 @@ There are some options already, but they still need some improvement. I will upd
   * [ ] Adobe Edge Webfonts
   * [ ] FontAwesome
 * [x] Check for DNS Prefetching
-* [ ] Check for Fingerprinting Methods
 * [ ] Check for Analytics Tools
   * [x] Google Analytics
   * [x] Google Tag Manager
