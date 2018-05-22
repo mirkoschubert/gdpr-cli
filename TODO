@@ -1,26 +1,34 @@
 
 Todo:
   Roadmap:
-    ✔ Create the basic structure with an easy UI and a flexible Task manager @done(16-05-20 22:27)
-    ✔ Get some basic information about the website (Meta Data) @done(18-05-20 01:15)
+    ✔ Create the basic structure with an easy UI and a flexible Task manager @done(18-05-16 22:27)
+    ✔ Get some basic information about the website (Meta Data) @done(18-05-19 01:15)
     ✔ Check SSL Certificate @done(18-05-20 21:59)
     ☐ Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
     ☐ Check for DNS Prefetching
     ☐ Check for Fingerprinting Methods
     ☐ Check for Google Analytics & Matomo (Piwik)
+      ☐ Look for analytics.js and gtag.js
+      ☐ Find the inline JS Code
+      ☐ Look for additional preferences (anonymizeIP etc.)
     ☐ Check for Image Embeds (e.g. Instagram & Flickr)
     ☐ Check for Video Embeds (e.g. YouTube & Vimeo)
     ☐ Check for external JavaScript Libraries
     ☐ Check for CDNs (e.g. WordPress, Cloudflase, AWS)
     ☐ Check for Cookies (if it's even possible)
     ☐ Check for advanced Fingerprinting (if possible)
+    ☐ Check for WordPress specific entries (Jetpack, WP Emojis, oEmbeds etc.)
   Fixes:
     ✔ Check for protocol earlier @done(18-05-21 17:09)
     ✔ Generate a SSL task @done(18-05-20 23:04)
     ✔ Handle Task Runner better @started(18-05-20 22:41) @done(18-05-21 17:09) @lasted(18 hours 28 minutes 3 seconds)
-    ☐ Better Error Handling
+    ✔ Better Error Handling @done(18-05-21 19:01)
     ✔ Continue when a file fails @done(18-05-21 18:43)
     ☐ Change URL of CSS and JS to Object
     ✔ Don't show Certificate when it's empty @done(18-05-21 17:20)
+    ✔ Find inline CSS and JS @done(18-05-22 14:47)
+    ☐ Find iframes?
+    ✔ Handle multipe Generator tags @done(18-05-22 14:43)
   Bugs:
-    
+    ✔ Manual selection of tasks doesn't work anymore @critical @done(18-05-22 16:31)
+    ✔ CSS and JS files without a protocol can't be loaded @high @done(18-05-22 17:00)
