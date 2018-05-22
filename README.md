@@ -52,13 +52,30 @@ There are some options already, but they still need some improvement. I will upd
 
 * [x] Create the basic structure with an easy UI and a flexible Task manager
 * [x] Get some basic information about the website (Meta Data)
+  * [x] Check the installed Software
+  * [x] Detect Theme when WordPress is installed
 * [x] Check SSL Certificate
 * [ ] Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
-* [ ] Check for DNS Prefetching
+  * [ ] Google Fonts
+  * [ ] Adobe Typekit
+  * [ ] Adobe Edge Webfonts
+  * [ ] FontAwesome
+* [x] Check for DNS Prefetching
 * [ ] Check for Fingerprinting Methods
-* [ ] Check for Google Analytics & Matomo (Piwik)
-* [ ] Check for Image Embeds (e.g. Instagram & Flickr)
-* [ ] Check for Video Embeds (e.g. YouTube & Vimeo)
+* [ ] Check for Analytics Tools
+  * [x] Google Analytics
+  * [x] Google Tag Manager
+  * [ ] Matomo / Piwik
+  * [ ] WordPress Stats (Jetpack)
+* [ ] Check for Image Embeds
+  * [ ] Instagram
+  * [ ] Pinterest
+  * [ ] Flickr
+* [ ] Check for Music Embeds
+  * [ ] SoundCloud
+* [ ] Check for Video Embeds
+  * [ ] YouTube
+  * [ ] Vimeo
 * [ ] Check for external JavaScript Libraries
 * [ ] Check for CDNs (e.g. WordPress, Cloudflase, AWS)
 * [ ] Check for Cookies (if it's even possible)

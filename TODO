@@ -3,20 +3,35 @@ Todo:
   Roadmap:
     ✔ Create the basic structure with an easy UI and a flexible Task manager @done(18-05-16 22:27)
     ✔ Get some basic information about the website (Meta Data) @done(18-05-19 01:15)
+      ✔ Check the installed Software @done(18-05-19 01:15)
+      ✔ Detect Theme when WordPress is installed @done(18-05-19 01:15)
     ✔ Check SSL Certificate @done(18-05-20 21:59)
     ☐ Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
+      ☐ Google Fonts
+      ☐ Adobe Typekit
+      ☐ Adobe Edge Web Fonts
+      ☐ FontAwesome
     ✔ Check for DNS Prefetching @done(18-05-22 17:45)
       ✔ Explain WordPress specific entries @done(18-05-22 18:05)
     ☐ Check for Fingerprinting Methods
-    ☐ Check for Google Analytics & Matomo (Piwik)
-      ☐ Look for analytics.js and gtag.js
-      ☐ Find the inline JS Code
-      ☐ Look for additional preferences (anonymizeIP etc.)
-    ☐ Check for Image Embeds (e.g. Instagram & Flickr)
-    ☐ Check for Video Embeds (e.g. YouTube & Vimeo)
+    ☐ Check for Analytics Tools @started(18-05-22 18:14)
+      ✔ Google Analytics @done(18-05-22 20:48)
+      ✔ Google Tag Manager @done(18-05-22 20:48)
+      ☐ Matomo/ Piwik
+      ☐ WordPress Stats (Jetpack)
+    ☐ Check for Image Embeds
+      ☐ Instagram
+      ☐ Pinterest
+      ☐ Flickr
+    ☐ Check for Music Embeds
+      ☐ SoundCloud
+    ☐ Check for Video Embeds
+      ☐ YouTube
+      ☐ Vimeo
     ☐ Check for external JavaScript Libraries
     ☐ Check for CDNs (e.g. WordPress, Cloudflase, AWS)
     ☐ Check for Cookies (if it's even possible)
+    ☐ Check for Beacons (Facebook Pixel / Social Graph, VG Wort)
     ☐ Check for advanced Fingerprinting (if possible)
     ☐ Check for WordPress specific entries (Jetpack, WP Emojis, oEmbeds etc.)
   Fixes:

@@ -21,6 +21,7 @@ app
   .option('-f, --fonts', 'checks if any font is loading externally', true)
   .option('-s, --ssl', 'checks for SSL certificate', true)
   .option('-p, --prefetching', 'checks for DNS prefetching')
+  .option('-a, --analytics', 'checks for Google Analytics & Piwik')
   .option('-r, --recursive', 'tries to follow links to check every internal site', false)
   .action((url, args) => {
     if (args.parent.verbose && args.parent.silent) {
@@ -35,6 +36,7 @@ app
     if (args.ssl) tasks.new('ssl');
     if (args.fonts) tasks.new('fonts');
     if (args.prefetching) tasks.new('prefetching');
+    if (args.analytics) tasks.new('analytics');
 
     tasks.run();
   });
