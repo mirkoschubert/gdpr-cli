@@ -5,7 +5,8 @@ Todo:
     ✔ Get some basic information about the website (Meta Data) @done(18-05-19 01:15)
     ✔ Check SSL Certificate @done(18-05-20 21:59)
     ☐ Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
-    ☐ Check for DNS Prefetching
+    ✔ Check for DNS Prefetching @done(18-05-22 17:45)
+      ✔ Explain WordPress specific entries @done(18-05-22 18:05)
     ☐ Check for Fingerprinting Methods
     ☐ Check for Google Analytics & Matomo (Piwik)
       ☐ Look for analytics.js and gtag.js
