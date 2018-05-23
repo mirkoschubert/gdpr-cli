@@ -65,7 +65,7 @@ There are some options already, but they still need some improvement. I will upd
   * [x] Google Analytics
   * [x] Google Tag Manager
   * [x] Matomo / Piwik
-  * [ ] WordPress Stats (Jetpack)
+  * [x] WordPress Stats (Jetpack)
 * [ ] Check for Image Embeds
   * [ ] Instagram
   * [ ] Pinterest
