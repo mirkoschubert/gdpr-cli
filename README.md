@@ -55,7 +55,7 @@ There are some options already, but they still need some improvement. I will upd
   * [x] Check the installed Software
   * [x] Detect Theme when WordPress is installed
 * [x] Check SSL Certificate
-* [ ] Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
+* [ ] Check for Web Fonts
   * [ ] Google Fonts
   * [ ] Adobe Typekit
   * [ ] Adobe Edge Webfonts
@@ -64,7 +64,7 @@ There are some options already, but they still need some improvement. I will upd
 * [ ] Check for Analytics Tools
   * [x] Google Analytics
   * [x] Google Tag Manager
-  * [ ] Matomo / Piwik
+  * [x] Matomo / Piwik
   * [ ] WordPress Stats (Jetpack)
 * [ ] Check for Image Embeds
   * [ ] Instagram

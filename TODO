@@ -16,8 +16,9 @@ Todo:
     ☐ Check for Analytics Tools @started(18-05-22 18:14)
       ✔ Google Analytics @done(18-05-22 20:48)
       ✔ Google Tag Manager @done(18-05-22 20:48)
-      ☐ Matomo/ Piwik
+      ✔ Matomo/ Piwik @done(18-05-23 12:03)
       ☐ WordPress Stats (Jetpack)
+      ☐ Check for Opt Out Script
     ☐ Check for Image Embeds
       ☐ Instagram
       ☐ Pinterest
@@ -44,6 +45,7 @@ Todo:
     ✔ Find inline CSS and JS @done(18-05-22 14:47)
     ☐ Find iframes?
     ✔ Handle multipe Generator tags @done(18-05-22 14:43)
+    ☐ Help pages for every command
   Bugs:
     ✔ Manual selection of tasks doesn't work anymore @critical @done(18-05-22 16:31)
     ✔ CSS and JS files without a protocol can't be loaded @high @done(18-05-22 17:00)
