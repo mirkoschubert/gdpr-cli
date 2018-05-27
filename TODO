@@ -7,10 +7,11 @@ Todo:
       ✔ Detect Theme when WordPress is installed @done(18-05-19 01:15)
     ✔ Check SSL Certificate @done(18-05-20 21:59)
     ☐ Check for Web Fonts (e.g. Google Fonts & Adobe Typekit)
-      ☐ Google Fonts
+      ✔ Google Fonts @done(18-05-27 19:22)
       ☐ Adobe Typekit
       ☐ Adobe Edge Web Fonts
       ☐ FontAwesome
+      ✔ Local Fonts @done(18-05-27 19:23)
     ✔ Check for DNS Prefetching @done(18-05-22 17:45)
       ✔ Explain WordPress specific entries @done(18-05-22 18:05)
     ☐ Check for Analytics Tools @started(18-05-22 18:14)
@@ -32,6 +33,9 @@ Todo:
     ☐ Check for CDNs (e.g. WordPress, Cloudflase, AWS)
     ☐ Check for Cookies (if it's even possible)
     ☐ Check for Beacons (Facebook Pixel / Social Graph, VG Wort)
+      ☐ Facebook Pixel
+      ☐ VG Wort Tracker
+      ☐ Wordpress.com Pixel (pixel.wp.com)
     ☐ Check for advanced Fingerprinting (if possible)
     ☐ Check for WordPress specific entries (Jetpack, WP Emojis, oEmbeds etc.)
   Fixes:

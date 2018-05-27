@@ -56,10 +56,11 @@ There are some options already, but they still need some improvement. I will upd
   * [x] Detect Theme when WordPress is installed
 * [x] Check SSL Certificate
 * [ ] Check for Web Fonts
-  * [ ] Google Fonts
+  * [x] Google Fonts
   * [ ] Adobe Typekit
   * [ ] Adobe Edge Webfonts
   * [ ] FontAwesome
+  * [x] Local Fonts
 * [x] Check for DNS Prefetching
 * [ ] Check for Analytics Tools
   * [x] Google Analytics
