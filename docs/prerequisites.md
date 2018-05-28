@@ -58,4 +58,4 @@ echo "export PATH=$PATH:/usr/local/git/bin:/usr/local/bin" >> ~/.bashrc
 
 That's it, you're done!
 
-!> If you use another shell, such as 'zsh', you should change this command accordingly.
+!> If you use another shell, such as `zsh`, you should change this command accordingly.
