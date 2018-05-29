@@ -44,7 +44,7 @@ Todo:
     ✔ Handle Task Runner better @started(18-05-20 22:41) @done(18-05-21 17:09) @lasted(18 hours 28 minutes 3 seconds)
     ✔ Better Error Handling @done(18-05-21 19:01)
     ✔ Continue when a file fails @done(18-05-21 18:43)
-    ☐ Change URL of CSS and JS to Object
+    ✔ Change URL of CSS and JS to Objects @done(18-05-29 13:57)
     ✔ Don't show Certificate when it's empty @done(18-05-21 17:20)
     ✔ Find inline CSS and JS @done(18-05-22 14:47)
     ☐ Find iframes?
@@ -57,4 +57,4 @@ Todo:
     ✔ URL class is not global in nodejs < 10 @critical @done(18-05-27 22:11)
     ✔ Inline JS and CSS can't be loaded when there are no external files @high @done(18-05-27 22:12)
     ☐ On Google the protocol doesn't upgrade to SSL automatically @low
-    ☐ On some sites the CSS and JS files can't be loaded when the URI contains a language slug @low
+    ✔ On some sites the CSS and JS files can't be loaded when the URI contains a language slug @low @done(18-05-29 13:57)
