@@ -4,7 +4,9 @@
   "description": "Checks websites for GDPR compliance",
   "main": "index.js",
   "scripts": {
-    "install": ""
+    "test": "ava test/*.js",
+    "test:verbose": "ava test/*.js --verbose",
+    "test:watch": "ava test/*.js --verbose --watch"
   },
   "bin": {
     "gdpr": "index.js"
@@ -23,5 +25,8 @@
     "got": "^8.3.1",
     "moment": "^2.22.1",
     "rootpath": "^0.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
   }
 }

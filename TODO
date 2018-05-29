@@ -50,9 +50,11 @@ Todo:
     ☐ Find iframes?
     ✔ Handle multipe Generator tags @done(18-05-22 14:43)
     ☐ Help pages for every command
+    ✔ English and German Documentation for Newbies @done(18-05-28 17:52)
   Bugs:
     ✔ Manual selection of tasks doesn't work anymore @critical @done(18-05-22 16:31)
     ✔ CSS and JS files without a protocol can't be loaded @high @done(18-05-22 17:00)
     ✔ URL class is not global in nodejs < 10 @critical @done(18-05-27 22:11)
     ✔ Inline JS and CSS can't be loaded when there are no external files @high @done(18-05-27 22:12)
     ☐ On Google the protocol doesn't upgrade to SSL automatically @low
+    ☐ On some sites the CSS and JS files can't be loaded when the URI contains a language slug @low
