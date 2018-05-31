@@ -59,8 +59,8 @@ There are some options already, but they still need some improvement. I will upd
 * [x] Check SSL Certificate
 * [ ] Check for Web Fonts
   * [x] Google Fonts
-  * [ ] Adobe Typekit
-  * [ ] Adobe Edge Webfonts
+  * [x] Adobe Typekit
+  * [x] Adobe Edge Webfonts
   * [ ] FontAwesome
   * [x] Local Fonts
 * [x] Check for DNS Prefetching
