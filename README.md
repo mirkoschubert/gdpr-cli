@@ -89,3 +89,5 @@ There are some options already, but they still need some improvement. I will upd
 ### Contribution
 
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/mirkoschubert/gdpr-cli/issues).
+
+You're welcome to fork the project and send me suggestions and new features via pull request. Please read the [contribution guidelines](https://mirkoschubert.github.io/gdpr-cli/#/dev-contrib) and send pull requests only to the newly installed `dev` branch!
