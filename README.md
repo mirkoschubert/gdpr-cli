@@ -60,7 +60,6 @@ There are some options already, but they still need some improvement. I will upd
 * [ ] Check for Web Fonts
   * [x] Google Fonts
   * [x] Adobe Typekit
-  * [x] Adobe Edge Webfonts
   * [ ] FontAwesome
   * [x] Local Fonts
 * [x] Check for DNS Prefetching
