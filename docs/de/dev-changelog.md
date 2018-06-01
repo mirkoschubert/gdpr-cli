@@ -1,5 +1,10 @@
 # Changelog
 
+### [v0.3.4] - 2018-06-01
+
+* Wir haben neue **Mitwirkungs-Richtlinien** im Repository und in der Dokumentation!
+* Einige Ergänzungen von unserem neuen Mitwirkenden [Daniel Ruf](https://github.com/DanielRuf) wurden übernommen.
+
 ### [v0.3.3] - 2018-06-01
 
 * **BUGFIX:** Wenn die Webseite relative Pfade zu CSS- und JS-Dateien enthält, konnten diese Dateien nicht geladen werden.

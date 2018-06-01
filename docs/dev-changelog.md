@@ -1,5 +1,10 @@
 # Changelog
 
+### [v0.3.4] - 2018-06-01
+
+* There are new **Contribution Guidelines** in the repository and the docs!
+* Some additions from our new contributor [Daniel Ruf](https://github.com/DanielRuf) were merged.
+
 ### [v0.3.3] - 2018-06-01
 
 * **BUGFIX:** When the site contains relative paths to CSS and JS files, those files won't load.

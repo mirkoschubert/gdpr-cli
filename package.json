@@ -1,6 +1,6 @@
 {
   "name": "gdpr-cli",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Checks websites for GDPR compliance",
   "main": "index.js",
   "scripts": {
