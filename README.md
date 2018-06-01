@@ -12,6 +12,10 @@
 
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mirkoschubert/gdpr-cli/master/gdpr-cli-screenshot.png" />
+</p>
+
 **Attention!** You are a newbie and don't understand the instructions down below? Visit our **new documentation** in [English](https://mirkoschubert.github.io/gdpr-cli/#/) and [German](https://mirkoschubert.github.io/gdpr-cli/#/de/)!
 
 **GDPR CLI** is a easy-to-use command line tool for checking any given website for GDPR compliance. Since it is based on Node.js, the application is browser- and OS-independant. For everyone, who hasn't installed Node.js, I have planned to publish a pre-installed Package für macOS and Windows as well.
