@@ -1,5 +1,11 @@
 # Changelog
 
+### [v0.3.3] - 2018-06-01
+
+* **BUGFIX:** Wenn die Webseite relative Pfade zu CSS- und JS-Dateien enthält, konnten diese Dateien nicht geladen werden.
+* **BUGFIX:** Auf manchen Seiten, die fehlerhaften Code enthalten, konnte der `css`-Parser nicht ordnungsgemäß ausgeführt werden. Ich stelle nun einen eigenen Parser bereit.
+* **FEATURE:** Adobe Typekit Fonts werden nun erkannt.
+
 ### [v0.3.2] - 2018-05-27
 
 * **BUGFIX:** URL-Klasse konnte nicht global bei Node.js <10 geladen werden
