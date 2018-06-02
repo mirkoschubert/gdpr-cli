@@ -1,0 +1,22 @@
+[{
+  "host": "bootstrapcdn.com",
+  "description": "Bootstrap CDN"
+}, {
+  "host": "s3.amazonaws.com",
+  "description": "Amazon AWS S3"
+}, {
+  "host": "cdnjs.cloudflare.com",
+  "description": "Cloudflare CDNJS Javascript Libraries"
+}, {
+  "host": "cdn-images.mailchimp.com",
+  "description": "Mailchimp Images CDN"
+}, {
+  "host": "use.fontawesome.com",
+  "description": "Fontawesome CDN"
+}, {
+  "host": "staticxx.facebook.com",
+  "description": "Facebook Connect Libraries"
+}, {
+  "host": "fonts.googleapis.com",
+  "description": "Google Fonts"
+}]

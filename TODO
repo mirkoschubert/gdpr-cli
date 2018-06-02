@@ -13,34 +13,50 @@ Todo:
       ✔ Local Fonts @done(18-05-27 19:23)
     ✔ Check for DNS Prefetching @done(18-05-22 17:45)
       ✔ Explain WordPress specific entries @done(18-05-22 18:05)
-    ☐ Check for Analytics Tools @started(18-05-22 18:14)
+    ☐ Check for Analytics Tools
       ✔ Google Analytics @done(18-05-22 20:48)
       ✔ Google Tag Manager @done(18-05-22 20:48)
       ✔ Matomo/ Piwik @done(18-05-23 12:03)
       ✔ WordPress Stats (Jetpack) @done(18-05-23 12:21)
       ☐ Check for Opt Out Script
-    ☐ Check for Image Embeds
+    ☐ Check for Media Embeds
       ☐ Instagram
-      ☐ Pinterest
       ☐ Flickr
-    ☐ Check for Music Embeds
-      ☐ SoundCloud
-    ☐ Check for Video Embeds
+      ☐ Soundcloud
       ☐ YouTube
       ☐ Vimeo
-    ☐ Check for external JavaScript Libraries
-    ☐ Check for CDNs (e.g. WordPress, Cloudflase, AWS)
-    ☐ Check for Cookies (if it's even possible)
-    ☐ Check for Beacons (Facebook Pixel / Social Graph, VG Wort)
+      ☐ Google Maps
+    ☐ Check for Social Media Embeds
+      ☐ FB Social Graph
+      ☐ FB Connect
+      ☐ FB Pixel (?)
+      ☐ Twitter
+      ☐ Pinterest
+      ☐ LinkedIn
+      ☐ Xing
+    ☐ Check for CDNs
+      ☐ WordPress CDN
+      ✔ AWS @done(18-06-02 13:52)
+      ✔ Cloudflare @done(18-06-02 13:52)
+      ✔ Bootstrap @done(18-06-02 13:52)
+      ✔ Fontawesome @done(18-06-02 13:52)
+    ☐ Check for Beacons (Facebook Pixel, VG Wort)
       ☐ Facebook Pixel
       ☐ VG Wort Tracker
       ☐ Wordpress.com Pixel (pixel.wp.com)
+    ☐ Check for WordPress specific entries
+      ☐ Plugins
+      ☐ Gravatar
+      ☐ Jetpack
+      ☐ WP Emojis
+      ☐ WP oEmbeds
+      ☐ WP JSON / XML-RTC
+    ☐ Check for Cookies (if it's even possible)
     ☐ Check for advanced Fingerprinting (if possible)
-    ☐ Check for WordPress specific entries (Jetpack, WP Emojis, oEmbeds etc.)
-  Fixes:
+  Specific Todos:
     ✔ Check for protocol earlier @done(18-05-21 17:09)
     ✔ Generate a SSL task @done(18-05-20 23:04)
-    ✔ Handle Task Runner better @started(18-05-20 22:41) @done(18-05-21 17:09) @lasted(18 hours 28 minutes 3 seconds)
+    ✔ Handle Task Runner better @done(18-05-21 17:09)
     ✔ Better Error Handling @done(18-05-21 19:01)
     ✔ Continue when a file fails @done(18-05-21 18:43)
     ✔ Change URL of CSS and JS to Objects @done(18-05-29 13:57)

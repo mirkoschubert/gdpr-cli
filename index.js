@@ -22,6 +22,7 @@ app
   .option('-s, --ssl', 'checks for SSL certificate', true)
   .option('-p, --prefetching', 'checks for DNS prefetching')
   .option('-a, --analytics', 'checks for Google Analytics & Piwik')
+  .option('-c, --cdn', 'checks for Content Delivery Networks')
   .option('-r, --recursive', 'tries to follow links to check every internal site', false)
   .action((url, args) => {
     if (args.parent.verbose && args.parent.silent) {
@@ -37,6 +38,7 @@ app
     if (args.fonts) tasks.new('fonts');
     if (args.prefetching) tasks.new('prefetching');
     if (args.analytics) tasks.new('analytics');
+    if (args.cdn) tasks.new('cdn');
 
     tasks.run();
   });
