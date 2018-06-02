@@ -3,6 +3,7 @@
 'use strict'
 
 const app = require('commander');
+const chalk = require('chalk');
 const Tasks = require('./lib/tasks');
 const UI = require('./lib/ui');
 
@@ -23,16 +24,28 @@ app
   .option('-p, --prefetching', 'checks for DNS prefetching')
   .option('-a, --analytics', 'checks for Google Analytics & Piwik')
   .option('-c, --cdn', 'checks for Content Delivery Networks')
-  .option('-r, --recursive', 'tries to follow links to check every internal site', false)
+  //.option('-r, --recursive', 'tries to follow links to check every internal site', false)
   .action((url, args) => {
-    if (args.parent.verbose && args.parent.silent) {
-      ui.error('\nYou have to choose between silent or verbose mode!\n');
+    // Error Handling
+    if (typeof url === 'undefined') {
+      ui.error('\nYou have to set an URL.\n', false);
       process.exit(0);
     }
+    if (url.match(/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/) === null) {
+      ui.error('\nYou have to set a valid URL.', false);
+      ui.info(chalk.dim('e.g. https://example.com or example.com\n'));
+      process.exit(0);
+    }
+    if (args.parent.verbose && args.parent.mute) {
+      ui.error('\nYou have to choose between silent or verbose mode!\n', false);
+      process.exit(0);
+    }
+
     if (args.parent.verbose) ui.set('verbose');
     if (args.parent.mute) ui.set('silent');
-    //console.log(args);
-    const tasks = new Tasks(url, ui); // initialize the task runner
+
+    // initialize the task runner
+    const tasks = new Tasks(url, ui);
 
     if (args.ssl) tasks.new('ssl');
     if (args.fonts) tasks.new('fonts');
