@@ -5,6 +5,7 @@
 const app = require('commander');
 const Tasks = require('./lib/tasks');
 const UI = require('./lib/ui');
+const chalk = require('chalk')
 
 
 const ui = new UI(); // initialize the UI
@@ -37,6 +38,12 @@ app
     if (args.fonts) tasks.new('fonts');
     if (args.prefetching) tasks.new('prefetching');
     if (args.analytics) tasks.new('analytics');
+
+    if(!url){
+      console.error(chalk.red('Please provide an URL'))
+      process.exit(1)
+      return
+    }
 
     tasks.run();
   });
