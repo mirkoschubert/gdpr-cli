@@ -29,16 +29,16 @@ app
     // Error Handling
     if (typeof url === 'undefined') {
       ui.error('\nYou have to set an URL.\n', false);
-      process.exit(0);
+      process.exit(1);
     }
     if (url.match(/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/) === null) {
       ui.error('\nYou have to set a valid URL.', false);
       ui.info(chalk.dim('e.g. https://example.com or example.com\n'));
-      process.exit(0);
+      process.exit(1);
     }
     if (args.parent.verbose && args.parent.mute) {
       ui.error('\nYou have to choose between silent or verbose mode!\n', false);
-      process.exit(0);
+      process.exit(1);
     }
 
     if (args.parent.verbose) ui.set('verbose');
