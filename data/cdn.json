@@ -8,6 +8,9 @@
   "host": "cdnjs.cloudflare.com",
   "description": "Cloudflare CDNJS Javascript Libraries"
 }, {
+  "host": "cloudfront.net",
+  "description": "Cloudfront CDN"
+}, {
   "host": "cdn-images.mailchimp.com",
   "description": "Mailchimp Images CDN"
 }, {
