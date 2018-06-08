@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --harmony
 
 'use strict'
 
@@ -23,6 +23,7 @@ app
   .option('-s, --ssl', 'checks for SSL certificate', true)
   .option('-p, --prefetching', 'checks for DNS prefetching')
   .option('-a, --analytics', 'checks for Google Analytics & Piwik')
+  .option('-t, --tracking', 'checks for Social Media tracking & embeds')
   .option('-c, --cdn', 'checks for Content Delivery Networks')
   //.option('-r, --recursive', 'tries to follow links to check every internal site', false)
   .action((url, args) => {
@@ -52,6 +53,7 @@ app
     if (args.prefetching) tasks.new('prefetching');
     if (args.analytics) tasks.new('analytics');
     if (args.cdn) tasks.new('cdn');
+    if (args.tracking) tasks.new('social');
 
     tasks.run();
   });
