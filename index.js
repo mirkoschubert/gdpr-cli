@@ -25,6 +25,7 @@ app
   .option('-a, --analytics', 'checks for Google Analytics & Piwik')
   .option('-t, --tracking', 'checks for Social Media tracking & embeds')
   .option('-c, --cdn', 'checks for Content Delivery Networks')
+  .option('-k, --cookies [expiration delay, in month]', 'checks for cookies lifetime (< 13 month by defaut)', false)
   //.option('-r, --recursive', 'tries to follow links to check every internal site', false)
   .action((url, args) => {
     // Error Handling
@@ -46,9 +47,10 @@ app
     if (args.parent.mute) ui.set('silent');
 
     // initialize the task runner
-    const tasks = new Tasks(url, ui);
+    const tasks = new Tasks(url, ui, args);
 
     if (args.ssl) tasks.new('ssl');
+    if (args.cookies) tasks.new('cookies');
     if (args.fonts) tasks.new('fonts');
     if (args.prefetching) tasks.new('prefetching');
     if (args.analytics) tasks.new('analytics');
