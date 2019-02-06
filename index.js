@@ -13,6 +13,7 @@ const ui = new UI(); // initialize the UI
 app
   .version(require('./package.json').version, '-V, --version')
   .option('-v, --verbose', 'shows you every single step')
+  .option('-z, --nfz', 'displays informations related to website report operating procedure, AKA NF Z67-147 in France.')
   .option('-m, --mute', 'shows only the results of the analysis');
 
 app
@@ -49,6 +50,7 @@ app
     // initialize the task runner
     const tasks = new Tasks(url, ui, args);
 
+    if (args.parent.nfz) tasks.new('nfz');
     if (args.ssl) tasks.new('ssl');
     if (args.cookies) tasks.new('cookies');
     if (args.fonts) tasks.new('fonts');
