@@ -14,6 +14,7 @@ app
   .version(require('./package.json').version, '-V, --version')
   .option('-v, --verbose', 'shows you every single step')
   .option('-z, --nfz', 'displays informations related to website report operating procedure, AKA NF Z67-147 in France.')
+  .option('-u, --audit', 'displays recommandations for further auditing')
   .option('-m, --mute', 'shows only the results of the analysis')
 
 app
@@ -51,6 +52,7 @@ app
     const tasks = new Tasks(url, ui, args);
 
     if (args.parent.nfz) tasks.new('nfz');
+    if (args.parent.audit) tasks.new('audit');
     if (args.ssl) tasks.new('ssl');
     if (args.cookies) tasks.new('cookies');
     if (args.fonts) tasks.new('fonts');
