@@ -13,6 +13,7 @@
   },
   "repository": "https://github.com/mirkoschubert/gdpr-check.git",
   "author": "Mirko Schubert <mirkoschubert@gmail.com>",
+  "contributors": ["Baptiste LARVOL-SIMON (http://www.e-glop.net/)"],
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
